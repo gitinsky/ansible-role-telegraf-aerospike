@@ -1,0 +1,3 @@
+- name: put Telegraf config
+  template: src=telegraf_aerospike.conf dest=/etc/telegraf/telegraf.d/telegraf_aerospike.conf
+  notify: restart telegraf

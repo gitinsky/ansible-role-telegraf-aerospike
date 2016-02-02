@@ -1,0 +1,1 @@
+telegraf_aerospike_servers: ["localhost:3000"]
